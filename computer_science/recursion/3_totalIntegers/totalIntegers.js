@@ -1,22 +1,4 @@
 const totalIntegers = function(arrayOrObject) {
-    // if(Number.isInteger(arrayOrObject)) {
-    //     return 1
-    // }
-    // if(typeof(arrayOrObject) !== 'object') {
-    //     return 0
-    // }
-
-    // let total = 0
-    // if(Array.isArray(arrayOrObject)) {
-    //     for(const subArrayOrObject of arrayOrObject) {
-    //         total += totalIntegers(subArrayOrObject)
-    //     }
-    // } else {
-    //     for(const subArrayOrObject of Object.values(arrayOrObject)) {
-    //         total += totalIntegers(subArrayOrObject)
-    //     }
-    // }
-    // return total
     if(typeof(arrayOrObject) !== 'object') {
         return undefined
     }
